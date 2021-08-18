@@ -2,8 +2,8 @@
 
 ## Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/epalex/four-card-feature-section
+- Live Site URL: https://epalex.github.io/four-card-feature-section/
 
 ## Built with
 
@@ -18,4 +18,4 @@
 
 ## my notes..
 
-- 
+-

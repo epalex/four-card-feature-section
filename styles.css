@@ -131,7 +131,8 @@ article figure {
   }
 
   .supervisor {
-    max-width: 350px;
+    /* max-width: 350px; */
+    width: 100%;
     height: 250px;
     grid-area: supervisor;
   }
@@ -145,19 +146,22 @@ article figure {
   }
 
   .team-builder {
-    max-width: 350px;
+    /* max-width: 350px; */
+    width: 100%;
     height: 250px;
     grid-area: team-builder;
   }
 
   .karma {
-    max-width: 350px;
+    /* max-width: 350px; */
+    width: 100%;
     height: 250px;
     grid-area: karma;
   }
 
   .calculator {
-    max-width: 350px;
+    /* max-width: 350px; */
+    width: 100%;
     height: 250px;
     grid-area: calculator;
   }
@@ -172,5 +176,7 @@ article figure {
       "supervisor karma calculator"
       ". karma .";
     column-gap: 30px;
+    margin: 0 auto;
+    max-width: 85%;
   }
 }

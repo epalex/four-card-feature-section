@@ -14,9 +14,6 @@ body {
 }
 
 header {
-  display: flex; /*epal*/
-  flex-direction: column;
-  align-items: center;
   color: #4d4f62;
   margin-top: 85px;
 }
@@ -24,12 +21,11 @@ header {
 h1 {
   font-style: normal;
   font-weight: 600;
-  font-size: 36px; /*epal*/
-  line-height: 54px; /*epal*/
-  letter-spacing: 0.25px; /*epal*/
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
   text-align: center;
   margin-bottom: 16px;
-  max-width: 450px; /*epal*/
 }
 
 .reliable {
@@ -45,7 +41,6 @@ header p {
   text-align: center;
   margin-bottom: 48px;
   opacity: 0.5;
-  max-width: 550px; /*epal*/
 }
 
 a {
@@ -72,10 +67,6 @@ footer {
   margin-bottom: 30px;
   border-top: 4px solid #44d3d2;
   padding: 20px;
-  width: 350px; /*epal*/
-  height: 250px; /*epal*/
-  grid-area: supervisor;
-  align-self: center;
 }
 
 article h2 {
@@ -94,11 +85,10 @@ article p {
   letter-spacing: 0.1px;
   color: #4d4f62;
   opacity: 0.5;
-  max-width: 280px; /*epal*/
 }
 
 article figure {
-  margin-top: 60px; /*epal*/
+  margin-top: 30px;
   text-align: right;
 }
 
@@ -107,9 +97,6 @@ article figure {
   margin-bottom: 30px;
   border-top: 4px solid #ea5454;
   padding: 20px;
-  width: 350px; /*epal*/
-  height: 250px; /*epal*/
-  grid-area: team-builder;
 }
 
 .karma {
@@ -117,27 +104,10 @@ article figure {
   margin-bottom: 30px;
   border-top: 4px solid #fcae4a;
   padding: 20px;
-  width: 350px; /*epal*/
-  height: 250px; /*epal*/
-  grid-area: karma;
 }
 
 .calculator {
   box-shadow: 10px 10px 5px lightgrey, -5px 0 5px lightgrey;
   border-top: 4px solid #549ef2;
   padding: 20px;
-  width: 350px; /*epal*/
-  height: 250px; /*epal*/
-  grid-area: calculator;
-}
-
-.four-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    ". team-builder ."
-    "supervisor team-builder calculator"
-    "supervisor karma calculator"
-    ". karma .";
 }
